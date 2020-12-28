@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".FragmentationReservation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:background="@drawable/emailbg"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:id="@+id/cityconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="City: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/parkconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="Parking: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/dateconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="Date: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/hourconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="Hour:"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="50dp"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

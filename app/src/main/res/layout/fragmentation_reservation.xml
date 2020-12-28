@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".FragmentationReservation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/emailbg"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/formcity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/emailbg"
+                android:ems="10"
+                android:hint="Insert city"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/formparking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:ems="10"
+                android:text="Choose date"
+                android:padding="7dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+
+
+            <TextView
+                android:id="@+id/editTextDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/emailbg"
+                android:ems="10"
+                android:hint="Date"
+                android:textAlignment="center"
+                android:padding="20dp"
+                android:inputType="none"
+                android:textSize="16sp"
+                android:layout_marginBottom="18dp"
+                android:gravity="center_horizontal" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

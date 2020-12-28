@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/parkname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/parkinfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="80dp"
+            android:text="Reserve"
+            android:textAllCaps="true"
+            android:background="?android:selectableItemBackground"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:padding="20dp"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:id="@+id/greenbtn"
+            android:background="@drawable/button_green"
+            android:textColor="@color/textWhite"
+            android:padding="10dp"
+            android:layout_toRightOf="@id/parkinfo1"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:id="@+id/redbtn"
+            android:layout_toRightOf="@id/greenbtn"
+            android:background="@drawable/button_red"
+            android:textColor="@color/textWhite"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
